@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Обработка строки</title>
+        <meta charset="utf-8">
+        <script defer src="script.js"></script>
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="main">
+            <div class="input">
+                <div class="formtext">
+                    Введите текст:
+                </div>
+                <div class="form">
+                    <textarea id="text" placeholder="..."></textarea>
+                </div>
+            </div>
+            <div class="output">
+                Результат обработки:
+                <div class="outputbox">
+                    <div class="outputline">
+                        <label>Количество слов: <div class="value" id="count"></div></label>
+                    </div>
+                    <div class="outputline">
+                        <label>Самое длинное слово: <div class="value" id="longest"></div></label>
+                    </div>
+                    <div class="outputline">
+                        <label>Самое короткое слово: <div class="value" id="shortest"></div></label>
+                    </div>
+                    <div class="outputline">
+                        <label>Обратный порядок: <div class="value" id="backwards"></div></label>
+                    </div>
+                </div>
+            </div>
+            <div class="buttons">
+                <div class="button">
+                    <button id="compute">Обработать</button>
+                </div>
+                <div class="button">
+                    <button id="again">Заново</button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

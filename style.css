@@ -1,0 +1,37 @@
+html, body {
+    background-color: rgb(255, 255, 255);
+    width: 100vw;
+    height: 100hw;
+    margin: 0px;
+    padding: 0px;
+}
+div {
+    color: rgb(00,00,00);
+}
+.main {
+    padding: 6px;
+}
+.input {
+    padding: 6px;
+}
+.output {
+    padding: 6px;
+}
+.outputbox {
+    padding: 5px;
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    max-width: 300px;
+    
+}
+.button {
+    display: inline-block;
+}
+.buttons {
+    padding: 6px;
+}
+.value {
+    display: inline-block;
+}
+
